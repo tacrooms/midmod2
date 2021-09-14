@@ -1,0 +1,36 @@
+#app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav-bar {
+  background-color: darkcyan;
+  height: 50px;
+  width: 100%;
+  
+  
+}
+
+#nav-bar ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  text-decoration-color: black;
+
+}
+
+#footer {
+  background-color: black;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#logo {
+  height: 20vh;
+  width: 20vh;
+}

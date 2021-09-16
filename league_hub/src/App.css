@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  background-image: ;
 }
 
 #nav-bar {
@@ -34,3 +35,4 @@
   height: 20vh;
   width: 20vh;
 }
+

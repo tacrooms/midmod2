@@ -9,7 +9,7 @@ function SummonerSearch() {
             <h1>
                 <img id="logo" src={Logo} />
                 <span>
-                   <strong>Summoner Search</strong> 
+                   <strong>RANKED</strong> 
                 </span>
             </h1>
         <SumSearchBar />

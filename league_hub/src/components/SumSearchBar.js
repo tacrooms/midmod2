@@ -2,7 +2,8 @@ import React, {useState} from 'react'
 import axios from 'axios'
 
 function SumSearchBar() {
-    const [SummonerName, setSummonerName] = useState('');
+    const [summonerName, setSummonerName] = useState('');
+    const [summonerDetails, setSummonerDetails] = useState({});
     
 
     const handleChange = (e) => {
@@ -19,8 +20,10 @@ function SumSearchBar() {
 
         e.preventDefault()
         try {
-            const response = await axios.get(`https://na1.api.riotgames.com/lol/summoner/v4/summoners/by-name/${SummonerName}?api_key=RGAPI-55b32194-5947-4592-b4ba-bffcae5b82e3`)
+            const response = await axios.get(`https://na1.api.riotgames.com/lol/summoner/v4/summoners/by-name/${summonerName}?api_key=RGAPI-d93f8ae4-25dc-4a52-a03e-57c24d84bfd2`)
             console.log(response.data)
+            setSummonerDetails(response.data) 
+
         } catch (error) {
             console.log('error')
             
@@ -38,7 +41,7 @@ function SumSearchBar() {
     return (
         <div>
                 <form onSubmit={(e)=>{return handleSubmit(e)}}>
-                <input onChange={(e)=>{return handleChange(e)}} type='text' placeholder= "Enter Summoner Name" value={SummonerName} />
+                <input onChange={(e)=>{return handleChange(e)}} type='text' placeholder= "Enter Summoner Name" value={summonerName} />
                 <button  type="submit">Submit</button>
             </form>
         </div>

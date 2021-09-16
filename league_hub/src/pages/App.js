@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {Switch, Route} from 'react-router-dom';
 // import {Link} from 'react-router-dom';
 // .. means parent folder
@@ -12,9 +12,11 @@ import SummonerSearch from './SummonerSearch';
 
 
 
+
 function App() {
   return (
      <div id='app'>
+       
 
         <NavBar />
           <Switch>

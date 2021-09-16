@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React  from 'react';
 import { Link } from 'react-router-dom'
 
 function NavBar() {
@@ -7,13 +7,13 @@ function NavBar() {
         <nav id='nav-bar'>
         <ul>
             <li>
-            <Link to="/home">Home</Link>
+            <Link to="/Home">HOME</Link>
             </li>
             <li>
-            <Link to="/champsearch">Champ Search</Link>
+            <Link to="/ChampSearch">CHAMPIONS</Link>
             </li>
             <li>
-            <Link to="/summonersearch">Summoner Search</Link>
+            <Link to="/SummonerSearch">RANKED</Link>
             </li>
          
             

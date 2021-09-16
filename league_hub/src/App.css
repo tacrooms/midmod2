@@ -4,8 +4,24 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-image: ;
+  background-image: url(./Images/worldslogo2.jpg);
+  background-size: cover;
 }
+
+/* #home {
+  background-image: url(./Images/worldslogo2.jpg);
+  background-size: cover;
+}
+
+#champions {
+  background-image: url(./Images/worldslogo.jpg);
+  background-size: cover;
+}
+
+#ranked {
+  background-image: url(./Images/worldslogo3.png);
+  background-size: cover;
+} */
 
 #nav-bar {
   background-color: darkcyan;

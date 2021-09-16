@@ -10,7 +10,7 @@ function NavBar() {
             <Link to="/Home">HOME</Link>
             </li>
             <li>
-            <Link to="/ChampSearch">CHAMPIONS</Link>
+            <Link to="/Champions">CHAMPIONS</Link>
             </li>
             <li>
             <Link to="/SummonerSearch">RANKED</Link>

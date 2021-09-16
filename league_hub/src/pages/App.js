@@ -7,7 +7,7 @@ import Footer from './../components/Footer';
 import './../App.css';
 // . is used when in the same directory
 import Home from './Home';
-import ChampSearch from './ChampSearch';
+import Champions from './Champions';
 import SummonerSearch from './SummonerSearch';
 
 
@@ -23,8 +23,8 @@ function App() {
           <Route path="/home">
               <Home />
             </Route>
-            <Route path="/champSearch">
-              <ChampSearch />
+            <Route path="/champions">
+              <Champions />
             </Route>
             <Route path="/summonerSearch">
               <SummonerSearch />

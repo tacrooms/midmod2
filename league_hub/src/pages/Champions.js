@@ -6,6 +6,8 @@ function Champions() {
     return (
         <div id='champions'>
 
+            
+
             <div>
                 <ChampSearchBar />
             </div>

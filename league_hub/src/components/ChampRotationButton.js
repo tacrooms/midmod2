@@ -11,7 +11,7 @@ function ChampRotationButton() {
     const handleSubmit = async(e) => {
         
         try {
-            const response = await axios.get('https://na1.api.riotgames.com/lol/platform/v3/champion-rotations?api_key=RGAPI-d93f8ae4-25dc-4a52-a03e-57c24d84bfd2')
+            const response = await axios.get('https://na1.api.riotgames.com/lol/platform/v3/champion-rotations?api_key=RGAPI-de71f6d8-fcd6-45ca-acdb-ae0ab8588067')
             console.log(response.data.freeChampionIds)
             
         } catch (error) {

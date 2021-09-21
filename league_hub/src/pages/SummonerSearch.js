@@ -1,20 +1,20 @@
 import React from 'react'
 import SumSearchBar from '../components/SumSearchBar'
+import SumCard from '../components/SumCard'
 
 
 function SummonerSearch() {
     return (
         <div id='ranked'>
             
-            <div className='search'>
-            <h1>
-    
-                <span>
-                   <strong>RANKED</strong> 
-                </span>
-            </h1>
-        <SumSearchBar />
+            <div>
+            <SumSearchBar />
             </div>
+            <div>
+            {/* <SumCard /> */}
+            </div>
+
+
             
 
 
